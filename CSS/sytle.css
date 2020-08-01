@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+    color: #3a3a3a;
+}
+ 
+p {
+	font-size: 1.2em;
+	margin-bottom: 1.8em;
+}
+.introduction {
+    padding: 0 12px;
+}
+h2,
+h3,
+a {
+	color: #093a58;
+}
+h3 {
+    font-size: 30px;
+}
+h2,
+h3,
+h4 {
+	margin-top: 0;
+}
+.header-top {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    
+}  
+ .logo-name, .main-footer{
+     text-align: center;
+ }
+.logo-name {
+    font-size: 1.25em;
+    margin: 0;
+}
+ol, ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.main-nav {
+    margin-top: 5px;
+}
+ 
+.logo-name a, .main-nav a {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.main-nav a {
+    font-size: 1em;
+    color: rgb(29, 144, 135);
+    text-transform: uppercase;
+}
+
+.main-footer {
+    margin-top: 50px;
+    background: #2412;
+    padding: 30px 0;
+}
+
+ 
+ 
+ 
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+ 
+.name-logo a:visited {
+    color: #3a3a3a;
+}
+.logo {
+    width: 180px;
+    transition: transform .3s;
+ 
+}
+ 
+.logo:hover{
+    transform: scale(1.1);
+     
+}
+ 
+.tag-line{
+    font-size: 25px;
+}
+.logo-express {
+    margin-top: 4px;
+}
+.brandlogo {
+    color: white;
+    background: linear-gradient(to top right, rgb(163,54,226) , rgb(248, 118, 31));
+    /* background-color: rgb(163, 54, 226); */
+    text-align: center;
+    padding: 9em 0 5em 0;
+    margin-bottom: 70px;
+    margin-top: 0;
+    width: 100%;
+}
+ 
+.main-nav a  {
+    transition: box-shadow .3s;
+     
+}
+.main-nav a:hover  {
+    
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.lod {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+ figure {
+    position: relative;
+    margin: 0;
+    line-height: 0;
+}
+ img {
+        width: 100%;
+}
+.icon-akatsukis{
+    width: 149px;
+    position: absolute;
+    top: -63px;
+    left: 379px;
+}
+ figcaption {
+    font-size: .9em;
+    line-height: 1.5;
+    color: #fff;
+    padding: 1em;
+    background: rgba(114, 122, 172, 0.8);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media (min-width: 1025px) {
+	
+	.container {
+		width: 80%;
+        max-width: 1150px;
+        
+    }
+}
+ @media (max-width: 769px) {
+    .brandlogo  {
+      padding: 29px;   
+    }
+ }
+@media (min-width: 769px) {
+    .header-top {
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    width: 100%;
+    top: 0;
+    z-index: 1000
+    } 
+    .container {
+        width: 100%;
+        margin: 0px auto;
+       
+        padding: 0 10px;
+    }
+    .logo-name {
+        float: left;
+       
+    }
+    .main-nav  {
+        float: right;
+       
+    }
+    .main-nav li {
+    display: inline-block;
+    margin-left: 15px;
+    }
+ 
+     /* .lod {
+         float: left;
+     }
+    .primary, .secondary, .third,.fourth,.fifth {
+    width: 50%;
+    }    */
+    .primary, .secondary, .third,.fourth,.fifth {
+        width: 50%;
+    }  
+   .flexss {
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}

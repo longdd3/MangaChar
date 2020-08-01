@@ -1,0 +1,80 @@
+
+img {
+    width: 100%;
+}
+.chars{    
+color: white; 
+background-image: url("../img&gilf/giphy.gif");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: left;
+padding: 15em 0 5em 0;
+margin-bottom: 80px;
+margin-top: 0;
+width: 100%;
+}
+.picture-nagato {
+    width: 200px;
+    float: right;
+    
+}
+.picture-nagato2 {
+    width: 80%;
+    float: left;
+    padding: 10px;
+ 
+}
+.pod {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.container2 {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0 30px;
+}
+.char-table {
+    background-color: rgb(241, 130, 79);
+}
+.mainheader {
+    background-color: lightcyan;
+}
+.imagecell {
+    text-align: center;
+}
+th,td {
+    border: 0.5px solid black;
+}
+.picture2{
+     width: 50%;
+   
+}
+.voicechar {
+    text-decoration: underline;
+    color : rgb(255, 255, 255);
+
+} 
+td {
+    color: white;
+}
+@media (min-width: 769px) {
+.pod {
+    float: left;
+    padding-right: 30px;
+}
+.background{
+    width: 60%;
+}
+.dac {
+    width: 40%;
+}
+ .bk{
+    border-bottom: 2px solid lightslategray ;
+}
+.char-style {
+    font-size: 2em;
+    color: rgb(64, 146, 253);
+}
+ 
+}
